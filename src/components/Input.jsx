@@ -32,10 +32,10 @@ const Input = ({
           onChange={onChange}
           placeholder={placeholder}
           required={required}
-          className={`w-full px-4 py-3 ${icon ? 'pl-10' : ''} border-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent transition-all duration-200 ${
+          className={`w-full px-4 py-3 ${icon ? 'pl-10' : ''} border-2 rounded-xl focus:outline-none focus:ring-2 focus:ring-purple-500 focus:border-transparent transition-all duration-200 ${
             error 
               ? 'border-red-400 bg-red-50 focus:ring-red-500' 
-              : 'border-gray-300 bg-white hover:border-gray-400 focus:bg-white'
+              : 'border-gray-300 bg-white hover:border-purple-200 focus:bg-white'
           }`}
         />
       </div>

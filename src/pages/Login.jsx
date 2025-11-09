@@ -84,11 +84,11 @@ const Login = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-indigo-50 to-purple-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-purple-50/50 to-pink-50/30 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8 animate-fade-in">
         {/* Logo/Header */}
         <div className="text-center">
-          <div className="mx-auto h-16 w-16 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-2xl flex items-center justify-center shadow-lg mb-4 transform hover:scale-110 transition-transform">
+          <div className="mx-auto h-16 w-16 bg-gradient-to-br from-purple-600 via-violet-600 to-fuchsia-600 rounded-2xl flex items-center justify-center shadow-lg mb-4 transform hover:scale-110 transition-transform">
             <svg className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
             </svg>
@@ -153,14 +153,14 @@ const Login = () => {
                   id="remember-me"
                   name="remember-me"
                   type="checkbox"
-                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                  className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
                 />
                 <label htmlFor="remember-me" className="ml-2 block text-sm text-gray-700">
                   Remember me
                 </label>
               </div>
               <div className="text-sm">
-                <a href="#" className="font-medium text-blue-600 hover:text-blue-500">
+                <a href="#" className="font-medium text-purple-600 hover:text-purple-700">
                   Forgot password?
                 </a>
               </div>
@@ -202,9 +202,9 @@ const Login = () => {
         {/* Footer */}
         <p className="text-center text-sm text-gray-500">
           By signing in, you agree to our{' '}
-          <a href="#" className="text-blue-600 hover:text-blue-500">Terms of Service</a>
+          <a href="#" className="text-purple-600 hover:text-purple-700">Terms of Service</a>
           {' '}and{' '}
-          <a href="#" className="text-blue-600 hover:text-blue-500">Privacy Policy</a>
+          <a href="#" className="text-purple-600 hover:text-purple-700">Privacy Policy</a>
         </p>
       </div>
     </div>

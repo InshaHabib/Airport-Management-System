@@ -93,11 +93,11 @@ const Dashboard = () => {
           <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
             <Link
               to="/users"
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+              className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-purple-50 transition-colors"
             >
               <div className="flex-shrink-0">
                 <svg
-                  className="h-6 w-6 text-blue-600"
+                  className="h-6 w-6 text-purple-600"
                   fill="none"
                   viewBox="0 0 24 24"
                   stroke="currentColor"
@@ -118,7 +118,7 @@ const Dashboard = () => {
 
             <Link
               to="/tickets"
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+              className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-purple-50 transition-colors"
             >
               <div className="flex-shrink-0">
                 <svg
@@ -143,7 +143,7 @@ const Dashboard = () => {
 
             <Link
               to="/flights"
-              className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-gray-50 transition-colors"
+              className="flex items-center p-4 border border-gray-200 rounded-lg hover:bg-purple-50 transition-colors"
             >
               <div className="flex-shrink-0">
                 <svg

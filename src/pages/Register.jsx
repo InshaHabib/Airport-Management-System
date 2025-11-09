@@ -104,11 +104,11 @@ const Register = () => {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-purple-50 via-pink-50 to-red-50 py-12 px-4 sm:px-6 lg:px-8">
+    <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 via-purple-50/50 to-pink-50/30 py-12 px-4 sm:px-6 lg:px-8">
       <div className="max-w-md w-full space-y-8 animate-fade-in">
         {/* Logo/Header */}
         <div className="text-center">
-          <div className="mx-auto h-16 w-16 bg-gradient-to-br from-purple-600 to-pink-600 rounded-2xl flex items-center justify-center shadow-lg mb-4 transform hover:scale-110 transition-transform">
+          <div className="mx-auto h-16 w-16 bg-gradient-to-br from-purple-600 via-violet-600 to-fuchsia-600 rounded-2xl flex items-center justify-center shadow-lg mb-4 transform hover:scale-110 transition-transform">
             <svg className="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M18 9v3m0 0v3m0-3h3m-3 0h-3m-2-5a4 4 0 11-8 0 4 4 0 018 0zM3 20a6 6 0 0112 0v1H3v-1z" />
             </svg>
@@ -187,18 +187,18 @@ const Register = () => {
                   id="terms"
                   name="terms"
                   type="checkbox"
-                  className="h-4 w-4 text-blue-600 focus:ring-blue-500 border-gray-300 rounded"
+                  className="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded"
                   required
                 />
               </div>
               <div className="ml-3 text-sm">
                 <label htmlFor="terms" className="text-gray-700">
                   I agree to the{' '}
-                  <a href="#" className="text-blue-600 hover:text-blue-500 font-medium">
+                  <a href="#" className="text-purple-600 hover:text-purple-700 font-medium">
                     Terms of Service
                   </a>
                   {' '}and{' '}
-                  <a href="#" className="text-blue-600 hover:text-blue-500 font-medium">
+                  <a href="#" className="text-purple-600 hover:text-purple-700 font-medium">
                     Privacy Policy
                   </a>
                 </label>
@@ -241,9 +241,9 @@ const Register = () => {
         {/* Footer */}
         <p className="text-center text-sm text-gray-500">
           By creating an account, you agree to our{' '}
-          <a href="#" className="text-blue-600 hover:text-blue-500">Terms of Service</a>
+          <a href="#" className="text-purple-600 hover:text-purple-700">Terms of Service</a>
           {' '}and{' '}
-          <a href="#" className="text-blue-600 hover:text-blue-500">Privacy Policy</a>
+          <a href="#" className="text-purple-600 hover:text-purple-700">Privacy Policy</a>
         </p>
       </div>
     </div>
