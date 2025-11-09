@@ -15,6 +15,7 @@ const DebugUsers = () => {
     loadUsers();
   }, []);
 
+// Load users from localStorage
   const loadUsers = () => {
     try {
       const usersString = localStorage.getItem('users');
